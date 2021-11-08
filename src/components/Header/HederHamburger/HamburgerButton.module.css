@@ -1,0 +1,10 @@
+.hambButton {
+  width: auto;
+  padding: 15px;
+  font-size: 1.2rem;
+}
+
+.hambButton:hover {
+  border: 1px 0 1px 0 solid gray;
+  color: red
+}
