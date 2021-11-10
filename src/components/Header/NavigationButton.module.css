@@ -1,7 +1,4 @@
 .navButton {
-  text-align: center;
-  font-size: 1.2rem;
-
   display: flex;
   flex-direction: column;
   flex: 1;
