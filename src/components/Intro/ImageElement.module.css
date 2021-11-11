@@ -1,0 +1,17 @@
+.imageHolder {
+  text-align: center;
+  margin: auto;
+}
+
+.imageHolder img {
+  height: 250px;
+  margin-bottom: 5%;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 50%;
+}
+
+@media only screen and (max-width: 600px) {
+  .imageHolder img {
+    height: 200px;
+  }
+} 

@@ -1,0 +1,35 @@
+.course {
+  background-color: white;
+  display: flex;
+  flex-grow: 1;
+
+  max-width: 350px;
+  min-width: 350px;
+  padding: 5px;
+  margin: 10px auto 10px auto;
+  max-height: 100px;
+
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.textContainer {
+  padding: 5px;
+  margin: 5px;
+}
+
+.course img {
+  height: 50px;
+  width: 50px;
+  display: flex;
+  margin: auto 5px auto 15px;
+}
+
+.course h3 {
+  display: block;
+  margin: 0;
+
+}
+
+.course a {
+  display: block;
+}

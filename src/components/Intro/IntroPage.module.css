@@ -1,0 +1,11 @@
+.background {
+  background-color: yellow;
+  height: calc(100vh - 85px);
+  margin-top: 5px;
+  display: flex;
+}
+
+.textHolder {
+  width: 80%;
+  margin: auto;
+}

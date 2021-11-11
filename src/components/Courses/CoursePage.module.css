@@ -1,0 +1,10 @@
+.background {
+  height: 100vh;
+  display: block;
+}
+
+.title {
+  display: block;
+  padding: 30px;
+  margin: 0;
+}
