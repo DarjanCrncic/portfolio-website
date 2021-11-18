@@ -1,11 +1,12 @@
 import React from "react";
+import Page from "../Common/Page";
 import TextBlock from "../Common/TextBlock";
 import ImageElement from "./ImageElement";
 import classes from "./IntroPage.module.css";
 
 const IntroPage = () => {
   return (
-    <div className={classes.background}>
+    <Page color={"yellow"}>
       <div className={classes.textHolder}>
         <ImageElement />
         <TextBlock>
@@ -17,7 +18,7 @@ const IntroPage = () => {
           dictum auctor. Donec vulputate tincidunt nunc.
         </TextBlock>
       </div>
-    </div>
+    </Page>
   );
 };
 
