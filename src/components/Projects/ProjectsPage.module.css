@@ -3,3 +3,8 @@
   padding: 30px;
   margin: 0;
 }
+
+.slide {
+  margin: auto;
+  display: flex;
+}

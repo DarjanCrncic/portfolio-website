@@ -1,0 +1,63 @@
+.background {
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: auto;
+  margin-bottom: 60px;
+  width: 80%;
+
+  justify-content: center;  
+}
+
+.imageHolder {
+  display: flex;
+  width: calc(50% - 5px);
+  margin: auto;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.imageHolder img {
+  width: 100%;
+  height: auto;
+}
+
+.textHolder {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: calc(50% - 5px);
+  margin-left: 5px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.textHolder h6 {
+  font-size: 2rem;
+  display: block;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  padding: 5px 35px 0px 35px;
+}
+.textHolder p {
+  padding: 0px 25px;
+  display: block;
+  text-align: justify;
+  margin-top: 5px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .background {
+    flex-direction: column;
+    margin-bottom: 40px;
+  }
+  .imageHolder {
+    width: 90%;
+    margin: auto;
+  }
+  .textHolder {
+    width: 90%;
+    margin: auto;
+    margin-top: 10px;
+  }
+} 
+
