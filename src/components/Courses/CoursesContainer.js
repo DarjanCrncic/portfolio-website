@@ -8,7 +8,7 @@ const CoursesContainer = () => {
     <div className={classes.container + " " + classes["custom-scrollbar"]}>
       {courses.map((course, i) => {
         return (
-          <CourseBlock course_image={course.image} link={course.link}>
+          <CourseBlock course_image={course.image} link={course.link} key={i}>
             {course.name}
           </CourseBlock>
         );

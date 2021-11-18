@@ -4,7 +4,7 @@ const Page = (props) => {
   return (
     <div
       style={{
-        minHeight: "calc(100vh - 25px)",
+
         display: "block",
         paddingTop: "25px",
         backgroundColor: props.color,

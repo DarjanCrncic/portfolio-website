@@ -1,4 +1,5 @@
 import React from "react";
+import ContactPage from "./components/Contact/ContactPage";
 import CoursePage from "./components/Courses/CoursePage";
 import Header from "./components/Header/Header";
 import IntroPage from "./components/Intro/IntroPage";
@@ -9,9 +10,10 @@ function App() {
   return <React.Fragment>
     <Header />
     <IntroPage />
-    <CoursePage />
-    <ProjectsPage />
     <SkillsPage />
+    <ProjectsPage />
+    <CoursePage />
+    <ContactPage />
   </React.Fragment>;
 }
 

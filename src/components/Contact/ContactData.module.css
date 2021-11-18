@@ -1,0 +1,9 @@
+.container {
+  text-align: center;
+}
+
+.container a {
+  display: block;
+  font-size: 1.1rem;
+  margin: 10px 0px;
+}
