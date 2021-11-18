@@ -9,6 +9,7 @@ import "swiper/components/pagination/pagination.min.css";
 import ProjectBlock from "./ProjectBlock";
 import Page from "../Common/Page";
 import Title from "../Common/Title";
+import { projects } from "./project-list";
 
 SwiperCore.use([Navigation, Pagination]);
 
@@ -26,17 +27,13 @@ const ProjectsPage = () => {
         navigation={true}
         className="mySwiper"
       >
-        <SwiperSlide>
-          <ProjectBlock />
-        </SwiperSlide>
-        <SwiperSlide>Slide 2</SwiperSlide>
-        <SwiperSlide>Slide 3</SwiperSlide>
-        <SwiperSlide>Slide 4</SwiperSlide>
-        <SwiperSlide>Slide 5</SwiperSlide>
-        <SwiperSlide>Slide 6</SwiperSlide>
-        <SwiperSlide>Slide 7</SwiperSlide>
-        <SwiperSlide>Slide 8</SwiperSlide>
-        <SwiperSlide>Slide 9</SwiperSlide>
+        {projects.map((project, i) => {
+          return (
+            <SwiperSlide key={i}>
+              <ProjectBlock project={project} />
+            </SwiperSlide>
+          );
+        })}
       </Swiper>
     </Page>
   );
