@@ -1,14 +1,14 @@
 import React from "react";
 import NavigationButton from "./NavigationButton";
 import classes from "./Navigation.module.css";
+import { sections } from "./navigation-list";
 
 const Navigation = () => {
   return (
     <div className={classes.navigation}>
-      <NavigationButton navigate={"skills"}>Skills</NavigationButton>
-      <NavigationButton navigate={"projects"}>Projects</NavigationButton>
-      <NavigationButton navigate={"courses"}>Courses</NavigationButton>
-      <NavigationButton navigate={"contact"}>Contact</NavigationButton>
+      {sections.map(section => {
+        return <NavigationButton navigate={section.navigate}>{section.title}</NavigationButton>
+      })}
     </div>
   );
 };
