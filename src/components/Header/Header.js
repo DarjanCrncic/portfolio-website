@@ -7,7 +7,7 @@ import HeaderTitle from "./HeaderTitle";
 const Header = () => {
   return (
     <div className={classes.header}>
-      <HeaderTitle>Title Here</HeaderTitle>
+      <HeaderTitle>DC Portfolio</HeaderTitle>
       <Navigation />
       <Hamburger />
     </div>

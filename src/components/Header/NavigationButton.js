@@ -5,7 +5,7 @@ import classes from "./NavigationButton.module.css";
 const NavigationButton = (props) => {
   return (
     <div className={classes.navButton}>
-      <Button>{props.children}</Button>
+      <Button navigate={props.navigate}>{props.children}</Button>
     </div>
   );
 };

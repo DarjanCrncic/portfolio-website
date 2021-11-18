@@ -5,7 +5,7 @@ import SkillsContainer from "./SkillsContainer";
 
 const SkillsPage = () => {
   return (
-    <Page>
+    <Page scroll="skills">
       <Title>My Skills</Title>
       <SkillsContainer />
     </Page>

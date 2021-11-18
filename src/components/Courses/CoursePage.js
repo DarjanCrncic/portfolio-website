@@ -5,7 +5,7 @@ import CoursesContainer from "./CoursesContainer";
 
 const CoursePage = () => {
   return (
-    <Page color={"green"}>
+    <Page color={"green"} scroll="courses">
       <Title>My Courses</Title>
       <CoursesContainer />
     </Page>

@@ -15,7 +15,7 @@ SwiperCore.use([Navigation, Pagination]);
 
 const ProjectsPage = () => {
   return (
-    <Page color={"red"}>
+    <Page color={"red"} scroll="projects">
       <Title>My Projects</Title>
       <Swiper
         slidesPerView={1}

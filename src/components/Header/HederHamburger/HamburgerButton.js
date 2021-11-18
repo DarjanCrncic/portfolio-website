@@ -5,7 +5,7 @@ import classes from "./HamburgerButton.module.css";
 const HamburgerButton = (props) => {
   return (
     <div className={classes.hambButton}>
-      <Button>{props.children}</Button>
+      <Button onClick={props.onClick}>{props.children}</Button>
     </div>
   );
 };

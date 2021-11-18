@@ -5,7 +5,7 @@ import ContactData from './ContactData';
 
 const ContactPage = () => {
   return (
-    <Page>
+    <Page scroll="contact">
       <Title>Contact</Title>
       <ContactData />
     </Page>
