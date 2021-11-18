@@ -3,6 +3,7 @@ import CoursePage from "./components/Courses/CoursePage";
 import Header from "./components/Header/Header";
 import IntroPage from "./components/Intro/IntroPage";
 import ProjectsPage from "./components/Projects/ProjectsPage";
+import SkillsPage from "./components/Skills/SkillsPage";
 
 function App() {
   return <React.Fragment>
@@ -10,6 +11,7 @@ function App() {
     <IntroPage />
     <CoursePage />
     <ProjectsPage />
+    <SkillsPage />
   </React.Fragment>;
 }
 

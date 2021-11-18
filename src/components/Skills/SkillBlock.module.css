@@ -1,0 +1,30 @@
+.block {
+  width: 30%;
+  margin: auto;
+  overflow: auto;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  min-width: 300px;
+  margin-top: 20px;
+}
+
+.block h4 {
+  padding: 15px 25px;
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.block hr {
+  margin: 0px 15px;
+  background-color: black;
+  border-bottom: 1px solid;
+}
+
+.block li {
+  font-size: 1.1rem;
+  margin: 5px 15px;
+  padding-left: 10px;
+}
+
+.block li::marker {
+  color: red;
+}

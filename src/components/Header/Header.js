@@ -5,11 +5,13 @@ import Navigation from "./Navigation";
 import HeaderTitle from "./HeaderTitle";
 
 const Header = () => {
-  return <div className={classes.header}>
-    <HeaderTitle>Title Here</HeaderTitle>
-    <Navigation />
-    <Hamburger />
-  </div>;
+  return (
+    <div className={classes.header}>
+      <HeaderTitle>Title Here</HeaderTitle>
+      <Navigation />
+      <Hamburger />
+    </div>
+  );
 };
 
 export default Header;

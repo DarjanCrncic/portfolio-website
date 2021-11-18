@@ -1,6 +1,8 @@
 .imageHolder {
   text-align: center;
   margin: auto;
+  display: flex;
+  margin-bottom: 40px;
 }
 
 .imageHolder img {
