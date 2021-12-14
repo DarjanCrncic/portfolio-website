@@ -10,6 +10,7 @@ const Page = (props) => {
         paddingTop: "25px",
         backgroundColor: props.color,
         paddingBottom: "40px",
+        padding: "50px 0"
       }}
     >
       <Element name={props.scroll}></Element>

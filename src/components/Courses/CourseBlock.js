@@ -6,7 +6,7 @@ const CourseBlock = (props) => {
       <img src={props.course_image} alt="course"></img>
       <div className={classes.textContainer}>
         <h3>{props.children}</h3>
-        <a href={props.link}>See course</a>
+        <a href={props.link} target="_blank" rel="noreferrer noopener">See course</a>
       </div>
     </div>
   );

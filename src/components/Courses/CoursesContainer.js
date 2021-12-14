@@ -2,6 +2,7 @@ import React from "react";
 import CourseBlock from "./CourseBlock";
 import classes from "./CoursesContainer.module.css";
 import { courses } from "./course-list";
+import "./swiper.css";
 
 const CoursesContainer = () => {
   return (
