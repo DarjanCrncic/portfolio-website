@@ -1,6 +1,12 @@
 .swiper-button-next  {
   right: 5% !important;
+  color: var(--dark) !important;
 }
 .swiper-button-prev {
   left: 5% !important;
+  color: var(--dark) !important;
+}
+
+.swiper-pagination-bullet-active {
+  color: var(--dark) !important;
 }

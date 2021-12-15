@@ -5,6 +5,7 @@
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   min-width: 300px;
   margin-top: 20px;
+  background-color: white;
 }
 
 .block h4 {
@@ -26,5 +27,5 @@
 }
 
 .block li::marker {
-  color: red;
+  color: var(--dark);
 }

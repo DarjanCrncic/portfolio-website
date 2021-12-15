@@ -5,7 +5,7 @@ import SkillsContainer from "./SkillsContainer";
 
 const SkillsPage = () => {
   return (
-    <Page scroll="skills">
+    <Page color={"var(--light)"} scroll="skills">
       <Title>My Skills</Title>
       <SkillsContainer />
     </Page>
