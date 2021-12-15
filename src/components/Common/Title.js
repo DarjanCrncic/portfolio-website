@@ -5,8 +5,9 @@ const Title = (props) => {
     <h1
       style={{
         display: "block",
-        padding: "30px",
-        margin: 0,
+        textAlign: "center",
+        fontSize: "3rem",
+        fontWeight: 500,
       }}
     >
       {props.children}
