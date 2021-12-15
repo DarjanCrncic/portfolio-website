@@ -7,7 +7,7 @@ const HamburgerPopup = () => {
     <div className={classes.popup}>
       {sections.map((section) => {
         return (
-          <HamburgerButton navigate={section.navigate}>
+          <HamburgerButton navigate={section.navigate} key={section.title}>
             {section.title}
           </HamburgerButton>
         );

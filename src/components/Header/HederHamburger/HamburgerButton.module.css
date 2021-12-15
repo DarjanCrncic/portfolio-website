@@ -1,10 +1,9 @@
 .hambButton {
   width: auto;
-  /*padding: 15px;*/
 }
 
 .hambButton:hover {
-  border: 1px 0 1px 0 solid gray;
   background-color: #d8d8d8;
+  color: var(--dark);
 }
 

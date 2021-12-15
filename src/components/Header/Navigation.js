@@ -6,8 +6,12 @@ import { sections } from "./navigation-list";
 const Navigation = () => {
   return (
     <div className={classes.navigation}>
-      {sections.map(section => {
-        return <NavigationButton navigate={section.navigate}>{section.title}</NavigationButton>
+      {sections.map((section) => {
+        return (
+          <NavigationButton navigate={section.navigate} key={section.title}>
+            {section.title}
+          </NavigationButton>
+        );
       })}
     </div>
   );

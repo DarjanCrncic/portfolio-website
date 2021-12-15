@@ -6,7 +6,7 @@ import classes from "./IntroPage.module.css";
 
 const IntroPage = () => {
   return (
-    <Page color={"yellow"}>
+    <Page color={"white"}>
       <div className={classes.textHolder}>
         <ImageElement />
         <TextBlock>
