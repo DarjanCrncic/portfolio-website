@@ -8,6 +8,7 @@ const Title = (props) => {
         textAlign: "center",
         fontSize: "3rem",
         fontWeight: 500,
+        color: "#11999e",
       }}
     >
       {props.children}

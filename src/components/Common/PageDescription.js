@@ -5,7 +5,7 @@ const PageDescription = (props) => {
   return (
     <React.Fragment>
       <div className={classes.container}>
-        <div className={classes.background}>{props.children}</div>
+        <div className={classes.background} style={props.style}>{props.children}</div>
       </div>
       <hr className={classes.break} />
     </React.Fragment>
