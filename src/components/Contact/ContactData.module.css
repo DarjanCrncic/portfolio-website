@@ -1,9 +1,14 @@
 .container {
   text-align: center;
+  margin: 100px 0 80px;
 }
 
 .container a {
   display: block;
   font-size: 1.1rem;
   margin: 10px 0px;
+
+  color: #11999e;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
 }
