@@ -8,7 +8,7 @@
   font-size: 1.1rem;
   margin: 10px 0px;
 
-  color: #11999e;
+  color: var(--dark);
   text-decoration: none;
   font-family: 'Montserrat', sans-serif;
 }

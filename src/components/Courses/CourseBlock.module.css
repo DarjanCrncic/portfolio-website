@@ -31,7 +31,7 @@
 
 .course a {
   display: block;
-    color: #11999e;
+  color: var(--dark);
   text-decoration: none;
   font-family: 'Montserrat', sans-serif;
   margin-top: 8px;

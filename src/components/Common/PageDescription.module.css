@@ -17,7 +17,7 @@
 .break {
   border: 0;
   height: 2px;
-  background-image: linear-gradient(to right,  #e4f9f5, #11999e,  #e4f9f5);
+  background-image: linear-gradient(to right, var(--light), var(--dark), var(--light));
   margin-bottom: 50px;
   width: 90%;
 }
