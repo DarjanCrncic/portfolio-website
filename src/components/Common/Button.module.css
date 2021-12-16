@@ -1,4 +1,3 @@
-
 .standardButton {
   width: 100%;
   height: 100%;
@@ -14,6 +13,9 @@
 }
 
 .standardButton:active {
-  color: var(--dark);
   transform: scale(0.95, 0.95);
+}
+
+.activeButton {
+  color: red;
 }

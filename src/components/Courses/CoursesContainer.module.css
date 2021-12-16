@@ -1,5 +1,5 @@
 .container {
-  width: 80%;
+  width: 70%;
   display: flex;
   margin: auto;
   flex-direction: row;
@@ -8,6 +8,11 @@
   max-height: 70vh;
 }
 
+@media only screen and (max-width: 900px) {
+  .container {
+    width: 80%;
+  }
+} 
 
 /* custom scrollbar */
 ::-webkit-scrollbar {

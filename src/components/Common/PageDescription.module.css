@@ -1,6 +1,6 @@
 .container {
   display: flex;
-  width: 90%;
+  width: 60%;
   margin: auto;
 
 }
@@ -13,6 +13,12 @@
   
   width: 100%;
 }
+
+@media only screen and (max-width: 900px) {
+  .container {
+    width: 80%;
+  }
+} 
 
 .break {
   border: 0;

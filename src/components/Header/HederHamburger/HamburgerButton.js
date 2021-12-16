@@ -5,7 +5,13 @@ import classes from "./HamburgerButton.module.css";
 const HamburgerButton = (props) => {
   return (
     <div className={classes.hambButton}>
-      <Button navigate={props.navigate}>{props.children}</Button>
+      <Button
+        navigate={props.navigate}
+        setActiveButton={props.setActiveButton}
+        active={props.activeButton === props.children}
+      >
+        {props.children}
+      </Button>
     </div>
   );
 };
