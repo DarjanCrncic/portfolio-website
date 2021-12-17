@@ -1,0 +1,25 @@
+.background {
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+
+.textHolder {
+  margin:auto;
+  text-align: center;
+}
+
+.nameIntro {
+  color: white;
+  font-size: 4rem;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.textIntro {
+  color: white;
+  font-size: 2rem;
+  padding: 0;
+}

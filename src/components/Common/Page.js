@@ -24,10 +24,8 @@ const Page = (props) => {
       ref={ref}
       style={{
         display: "block",
-        paddingTop: "25px",
         backgroundColor: props.color,
-        paddingBottom: "40px",
-        padding: "50px 0",
+        padding: "60px 0 100px",
       }}
     >
       <Element name={props.scroll}></Element>

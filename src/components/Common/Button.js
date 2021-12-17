@@ -18,7 +18,7 @@ const Button = (props) => {
     <button
       className={classes.standardButton}
       onClick={click}
-      style={{ color: props.active ? "var(--dark)" : "black" }}
+      style={{ color: props.active ? "var(--dark)" : "var(--darkest)" }}
     >
       {props.children}
     </button>

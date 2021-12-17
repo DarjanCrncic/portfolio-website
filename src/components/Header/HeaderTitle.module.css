@@ -1,11 +1,10 @@
 .title {
   font-size: 1.5rem;
-
   background: none;
-  color: inherit;
   border: none;
   cursor: pointer;
   outline: inherit;
+  color: var(--darkest);
 }
 
 .container {

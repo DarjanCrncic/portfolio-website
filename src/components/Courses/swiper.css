@@ -8,5 +8,5 @@
 }
 
 .swiper-pagination-bullet-active {
-  color: var(--dark) !important;
+  background-color: var(--dark) !important;
 }
