@@ -1,5 +1,4 @@
 import React from "react";
-import Page from "../Common/Page";
 import classes from "./StartPage.module.css";
 
 const StartPage = () => {

@@ -6,17 +6,20 @@ import IntroPage from "./components/Intro/IntroPage";
 import StartPage from "./components/Intro/StartPage";
 import ProjectsPage from "./components/Projects/ProjectsPage";
 import SkillsPage from "./components/Skills/SkillsPage";
+import PageContextProvider from "./store/PageContextProvider";
 
 function App() {
-  return <React.Fragment>
-    <Header />
-    <StartPage />
-    <IntroPage />
-    <SkillsPage />
-    <ProjectsPage />
-    <CoursePage />
-    <ContactPage />
-  </React.Fragment>;
+  return (
+    <PageContextProvider>
+      <Header />
+      <StartPage />
+      <IntroPage />
+      <SkillsPage />
+      <ProjectsPage />
+      <CoursePage />
+      <ContactPage />
+    </PageContextProvider>
+  );
 }
 
 export default App;

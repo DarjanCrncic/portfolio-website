@@ -1,21 +1,23 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { useContext, useEffect, useRef } from "react";
+import PageContext from "../../store/page-context";
 var Scroll = require("react-scroll");
 var Element = Scroll.Element;
 
 const Page = (props) => {
+  const context = useContext(PageContext);
+
   const ref = useRef();
-  const [isVisible, setState] = useState(false);
   useEffect(() => {
     const observer = new IntersectionObserver(
       ([entry]) => {
-        console.log(props.scroll + " " + entry.isIntersecting);
-        setState(entry.isIntersecting);
+        if (entry.isIntersecting) {
+          context.changeCurrentPage(props.scroll);
+        }
       },
       { threshold: "0.5" }
     );
 
     ref && observer.observe(ref.current);
-
     return () => observer.unobserve(ref);
   }, []);
 
