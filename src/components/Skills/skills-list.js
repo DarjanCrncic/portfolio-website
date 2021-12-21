@@ -15,10 +15,13 @@ export const strong = [
     text: "Javascript",
   },
   {
-    text: "Git",
+    text: "C",
   },
   {
-    text: "C",
+    text: "Electronics",
+  },
+  {
+    text: "Embedded development",
   },
 ];
 
@@ -36,13 +39,13 @@ export const proficient = [
     text: "CSS",
   },
   {
+    text: "Git",
+  },
+  {
     text: "Matlab",
   },
   {
     text: "Documentum",
-  },
-  {
-    text: "Redux",
   },
   {
     text: "Microsoft Office",
@@ -61,5 +64,8 @@ export const novice = [
   },
   {
     text: "jQuery",
+  },
+  {
+    text: "Redux",
   },
 ];

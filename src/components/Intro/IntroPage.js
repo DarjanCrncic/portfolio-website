@@ -9,13 +9,9 @@ const IntroPage = () => {
     <Page color={"white"}>
       <div className={classes.textHolder}>
         <ImageElement />
-        <TextBlock>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
-          congue vulputate lectus, vel varius odio sagittis sed. Aenean vitae
-          urna ac felis dapibus sodales. Pellentesque fringilla sapien id
-          venenatis maximus. Sed at magna nec libero consequat commodo. Integer
-          sit amet ante ac ex sodales varius. Proin tristique justo vel nibh
-          dictum auctor. Donec vulputate tincidunt nunc.
+        <TextBlock style={{width: "60%", margin: "auto", boxShadow: "none", textAlign: "center"}}>
+          Hi there! My name is Darjan and welcome to my site!. I'm a young developer focusing in backend development with Java and Spring Boot. 
+          The idea behind this website is to showcase me, my skills and my work through something other than a traditional CV.
         </TextBlock>
       </div>
     </Page>

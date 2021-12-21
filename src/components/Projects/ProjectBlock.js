@@ -12,9 +12,11 @@ const ProjectBlock = (props) => {
       </div>
       <div className={classes.textHolder}>
         <h6>{project.name}</h6>
-        <p>
+        <p className={classes.description}>
           {project.description}
         </p>
+        {project.user !== undefined && <div><p className={classes.userInfo}>Test user: {project.user}</p>
+        <p className={classes.userInfo}>Password: {project.password}</p></div>}
       </div>
     </div>
   );
