@@ -1,5 +1,12 @@
 export const projects = [
   {
+    name: "Quizzes",
+    image: "/apps/quiz.png",
+    link: "https://quiz-app-react-front.herokuapp.com/home",
+    description:
+      "Quiz application where users can select different types of quizzes and play them. Users can also compare their statistics to their facebook friends. The only supported option is to login/sign-up using Facebook. App was created using Spring Boot and React.js.",
+  },
+  {
     name: "Image Gallery",
     image: "/apps/gallery.png",
     link: "https://image-paintings-gallery.herokuapp.com/home",
@@ -23,13 +30,6 @@ export const projects = [
       "Facebook clone created using Spring Boot and Jquery. After registering, users can add friends, create groups, chat, create posts and more. This is the first application I created using Spring Boot. Unfortunately the page is not very responsive.",
     user: "Darjan",
     password: "12345",
-  },
-  {
-    name: "Quizzes",
-    image: "/apps/quiz.png",
-    link: "https://quiz-app-react-front.herokuapp.com/home",
-    description:
-      "Quiz application where users can select different types of quizzes and play them. Users can also compare their statistics to their facebook friends. The only supported option is to login/sign-up using Facebook. App was created using Spring Boot and React.js.",
   },
   {
     name: "OPTICS visualizer",
