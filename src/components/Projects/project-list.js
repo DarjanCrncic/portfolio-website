@@ -11,7 +11,7 @@ export const projects = [
     image: "/apps/v-collections.png",
     link: "https://vinyl-collections.herokuapp.com",
     description:
-      'Vinyl record collection site. Users can enter and store information about their collections. Created using Node.js with EJS as the template engine. This is my first "major" web-application.',
+      'This project is a vinyl record collection site. Users can enter and store information about their collections. Created using Node.js with EJS as the template engine. This is my first "major" web-application.',
     user: "Darjan",
     password: "123",
   },

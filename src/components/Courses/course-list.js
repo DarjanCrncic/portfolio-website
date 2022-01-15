@@ -74,5 +74,10 @@ export const courses = [
     link: "https://www.udemy.com/course/the-complete-web-development-bootcamp/",
     image: "courses/node.png",
   },
+  {
+    name: "Testing Spring Boot: Beginner to Guru",
+    link: "https://www.udemy.com/course/testing-spring-boot-beginner-to-guru/",
+    image: "courses/spring-boot.png",
+  },
 
 ];
