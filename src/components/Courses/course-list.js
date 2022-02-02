@@ -79,5 +79,10 @@ export const courses = [
     link: "https://www.udemy.com/course/testing-spring-boot-beginner-to-guru/",
     image: "courses/spring-boot.png",
   },
+  {
+    name: "Master Java Unit Testing With Spring Boot & Mockito",
+    link: "https://www.udemy.com/course/learn-unit-testing-with-spring-boot",
+    image: "courses/spring-boot.png",
+  },
 
 ];
