@@ -84,5 +84,9 @@ export const courses = [
     link: "https://www.udemy.com/course/learn-unit-testing-with-spring-boot",
     image: "courses/spring-boot.png",
   },
-
+  {
+    name: "Learn Java Functional Programming with Lambdas & Streams",
+    link: "https://www.udemy.com/course/functional-programming-with-java/",
+    image: "courses/java.png",
+  },
 ];
