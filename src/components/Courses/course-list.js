@@ -89,4 +89,9 @@ export const courses = [
     link: "https://www.udemy.com/course/functional-programming-with-java/",
     image: "courses/java.png",
   },
+  {
+    name: "Master Hibernate and JPA with Spring Boot in 100 Steps",
+    link: "https://msan.udemy.com/course/hibernate-jpa-tutorial-for-beginners-in-100-steps/",
+    image: "courses/spring-boot.png",
+  },
 ];
