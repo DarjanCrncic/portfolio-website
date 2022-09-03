@@ -5,7 +5,7 @@ const StartPage = () => {
   return (
     <div
       className={classes.background}
-      style={{ backgroundImage: "url(/backdrop.png)" }}
+      style={{ backgroundImage: "url(backdrop.png)" }}
     >
       <div className={classes.textHolder}>
         <h1 className={classes.nameIntro}>I'm Darjan</h1>
