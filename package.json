@@ -1,6 +1,7 @@
 {
   "name": "portfolio-website",
   "version": "0.1.0",
+  "homepage": "https://darjancrncic.github.io/portfolio-website",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.15.0",
@@ -15,6 +16,8 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -40,5 +43,8 @@
   },
   "engines": {
     "node": "^16.14.2"
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
   }
 }
