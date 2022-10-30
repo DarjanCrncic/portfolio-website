@@ -9,7 +9,7 @@ export const projects = [
   {
     name: "Image Gallery",
     image: "apps/gallery.png",
-    link: "https://image-paintings-gallery.herokuapp.com/home",
+    link: "https://darjancrncic.github.io/image-gallery-react/#/home",
     description:
       "Portfolio website for an artist, painter or photographer. Created using Node.js and React. The backend is quite small and is used only for serving static content and handling the contact form (sending emails). The frontend is built using Material-UI.",
   },
