@@ -94,4 +94,14 @@ export const courses = [
     link: "https://msan.udemy.com/course/hibernate-jpa-tutorial-for-beginners-in-100-steps/",
     image: "courses/spring-boot.png",
   },
+  {
+    name: "Angular - The Complete Guide (2023 Edition)",
+    link: "https://www.udemy.com/course/the-complete-guide-to-angular-2/",
+    image: "courses/angular.png",
+  },
+  {
+    name: "Reactive Angular Course (with RxJs, Angular 16)",
+    link: "https://www.udemy.com/course/rxjs-reactive-angular-course/",
+    image: "courses/angular.png",
+  },
 ];

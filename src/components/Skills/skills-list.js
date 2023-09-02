@@ -3,17 +3,29 @@ export const strong = [
     text: "Java",
   },
   {
-    text: "Spring Boot",
+    text: "Spring Boot, Spring Framework",
   },
   {
     text: "SQL (MySQL, Oracle, PostgreSQL)",
   },
   {
-    text: "Web Development",
+    text: "Angular",
   },
   {
-    text: "Javascript",
+    text: "Typescript",
   },
+  {
+    text: "HTML",
+  },
+  {
+    text: "CSS, LESS",
+  },
+  {
+    text: "Git",
+  },
+];
+
+export const proficient = [
   {
     text: "C",
   },
@@ -21,11 +33,8 @@ export const strong = [
     text: "Electronics",
   },
   {
-    text: "Embedded development",
+    text: "Embedded Development",
   },
-];
-
-export const proficient = [
   {
     text: "React.js",
   },
@@ -33,19 +42,7 @@ export const proficient = [
     text: "Node.js",
   },
   {
-    text: "HTML",
-  },
-  {
-    text: "CSS",
-  },
-  {
-    text: "Git",
-  },
-  {
     text: "Matlab",
-  },
-  {
-    text: "Documentum",
   },
   {
     text: "Microsoft Office",
@@ -63,9 +60,12 @@ export const novice = [
     text: "C++",
   },
   {
-    text: "jQuery",
+    text: "Documentum",
   },
   {
     text: "Redux",
   },
+  {
+    text: "PL/SQL"
+  }
 ];
