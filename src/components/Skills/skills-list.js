@@ -27,6 +27,12 @@ export const strong = [
 
 export const proficient = [
   {
+    text: "Docker",
+  },
+  {
+    text: "PL/SQL"
+  }, 
+  {
     text: "C",
   },
   {
@@ -40,19 +46,10 @@ export const proficient = [
   },
   {
     text: "Node.js",
-  },
-  {
-    text: "Matlab",
-  },
-  {
-    text: "Microsoft Office",
-  },
+  }
 ];
 
 export const novice = [
-  {
-    text: "Docker",
-  },
   {
     text: "Linux",
   },
@@ -60,12 +57,12 @@ export const novice = [
     text: "C++",
   },
   {
+    text: "Matlab",
+  },
+  {
     text: "Documentum",
   },
   {
     text: "Redux",
   },
-  {
-    text: "PL/SQL"
-  }
 ];

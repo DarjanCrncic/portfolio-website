@@ -104,4 +104,9 @@ export const courses = [
     link: "https://www.udemy.com/course/rxjs-reactive-angular-course/",
     image: "courses/angular.png",
   },
+  {
+    name: "RabbitMQ In Practice - A Complete Guide to RabbitMQ",
+    link: "https://www.udemy.com/course/rabbitmq-in-practice/",
+    image: "courses/networking.png"
+  }
 ];

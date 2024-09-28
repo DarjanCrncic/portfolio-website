@@ -6,9 +6,9 @@ const ProjectBlock = (props) => {
   return (
     <div className={classes.background}>
       <div className={classes.imageHolder}>
-        <a href={project.link} target="_blank" rel="noreferrer noopener">
+        {/* <a href={project.link} target="_blank" rel="noreferrer noopener"> */}
           <img src={project.image} alt="s" />
-        </a>
+        {/* </a> */}
       </div>
       <div className={classes.textHolder}>
         <h6>{project.name}</h6>

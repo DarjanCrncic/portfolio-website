@@ -1,5 +1,12 @@
 export const projects = [
   {
+    name: "DMS",
+    images: "apps/dms.png",
+    link: "",
+    description:
+      "By far the project I put the most work in. The app is a document management system with a wide variety of features. Document upload/download, document versioning, user management, domain security using Spring security ACL, notification system and more. Built using Spring Boot and Angular."
+  },
+  {
     name: "Quizzes",
     image: "apps/quiz.png",
     link: "https://quiz-app-react-front.herokuapp.com/home",
